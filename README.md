@@ -9,19 +9,19 @@ Estamos criando um site para o Ambulatório para Transsexuais & Travestis do Hos
 Aqui são apresentadas toda a documentação que foi construída no perído de construção do projeto.
 
 Link para os documentos:
-[Protótipo do Projeto (Google Sites)](https://sites.google.com/view/ambulatoriott/in%C3%ADcio)
-[Pauta das Reuniões](https://docs.google.com/document/d/1XgkMNlW921EWIRlzRQXgFcVFnWxZfLVmgyAGzu6d6dg/edit?usp=sharing)
+* [Protótipo do Projeto (Google Sites)](https://sites.google.com/view/ambulatoriott/in%C3%ADcio)
+* [Pauta das Reuniões](https://docs.google.com/document/d/1XgkMNlW921EWIRlzRQXgFcVFnWxZfLVmgyAGzu6d6dg/edit?usp=sharing)
 
 ## Linguagens utilizadas
 
-HTML;
-CSS.
+* HTML;
+* CSS.
 
 ## Ferramentas utilizadas
 
-Google Sites;
-Vscode;
-GitHub.
+* Google Sites;
+* Vscode;
+* GitHub.
 
 **Equipe:**
 
