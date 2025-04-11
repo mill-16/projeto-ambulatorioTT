@@ -13,6 +13,7 @@ header {
     background-color: #6d1b7b;
     color: #fff;
     padding: 10px 0;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -43,9 +44,15 @@ nav a:hover {
     border-radius: 8px;
 }
 
-h1,
-h2 {
+h1, h2 {
     color: #6d1b7b;
+}
+
+h1{
+    font-size: 40px;
+
+    position:relative;
+    left: 50px;
 }
 
 a {
@@ -90,3 +97,27 @@ footer {
         gap: 5px;
     }
 }
+
+#tituloecontainer{
+    position:relative;
+    left:350px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-shrink: 1;
+    
+    width:800px;
+    margin: 0px;
+}
+
+#fotoambulatorio{
+    height: 447px;
+    width: 800px;
+    border-radius: 8px;
+}
+
+/* medidas originais:
+    height: 647px;
+    width: 768px;
+*/
