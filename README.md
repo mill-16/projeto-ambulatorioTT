@@ -1,4 +1,4 @@
-# Projeto de Extensão - 2024.2
+# Projeto de Extensão - 2025.1
 
 ## Introdução
 
@@ -25,5 +25,5 @@ Link para os documentos:
 
 ## Equipe:
 
-* Mill Luna Sibeon
+* Mill Luna Sibeon ([GitHub](https://github.com/mill-16))
 * Luanny Siqueira Feliciano
