@@ -23,7 +23,7 @@ Link para os documentos:
 * Vscode;
 * GitHub.
 
-## Equipe:
+## Equipe
 
 * Mill Luna Sibeon ([GitHub](https://github.com/mill-16))
 * Luanny Siqueira Feliciano
