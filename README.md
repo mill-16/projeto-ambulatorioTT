@@ -6,7 +6,7 @@ Estamos criando um site para o Ambulatório para Transsexuais & Travestis do Hos
 
 ## Documentação
 
-Aqui são apresentadas toda a documentação que foi construída no perído de construção do projeto.
+Aqui são apresentadas toda a documentação que foi construída no período de construção do projeto.
 
 Link para os documentos:
 * [Protótipo do Projeto (Google Sites)](https://sites.google.com/view/ambulatoriott/in%C3%ADcio)
