@@ -1,4 +1,4 @@
-/* Estilos básicos */
+/* estilos básicos */
 body {
     font-family: 'Nunito', Arial, sans-serif;
     background-color: #f4f4f4;
@@ -8,15 +8,16 @@ body {
     margin: 0;
 }
 
-/* Cabeçalho e navegação */
+/* cabeçalho/barra superior */
 header {
-    background-color: #6d1b7b;
-    color: #fff;
+    background-color: #2D46B9;
+    color: #F8F8F8;
     padding: 10px 0;
     padding-bottom: 20px;
     text-align: center;
 }
 
+/* navegação */
 nav {
     display: flex;
     justify-content: center;
@@ -25,7 +26,7 @@ nav {
 }
 
 nav a {
-    color: #fff;
+    color: #F8F8F8;
     text-decoration: none;
     font-weight: bold;
 }
@@ -34,51 +35,52 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Container principal */
+/* container principal */
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: #fff;
+    background: #F8F8F8;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
+/* rodapé/barra inferior */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2D46B9;
+    color: #F8F8F8;
+    margin-top: 20px;
+}
+
+/* títulos */
 h1, h2 {
-    color: #6d1b7b;
+    color: #F037A5;
 }
 
 h1{
     font-size: 40px;
-
-    position:relative;
-    left: 50px;
 }
 
+/* links */
 a {
-    color: #d81b60;
+    color: #2D46B9;
     text-decoration: none;
 }
 
 a:hover {
+    color: #F037A5;
     text-decoration: underline;
 }
 
+/* texto destacado */
 .highlight {
-    color: #d81b60;
+    color: #F037A5;
     font-weight: bold;
 }
 
-/* Rodapé */
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #6d1b7b;
-    color: #fff;
-    margin-top: 20px;
-}
-
-/* Responsividade */
+/* responsividade */
 @media (max-width: 600px) {
     .container {
         padding: 10px;
@@ -98,19 +100,13 @@ footer {
     }
 }
 
-#tituloecontainer{
-    position:relative;
-    left:350px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    flex-shrink: 1;
-    
-    width:800px;
-    margin: 0px;
+/* container do index */
+.containerindex {
+    max-width: 800px;
+    margin: 20px auto;
 }
-
+ 
+/* foto no index */
 #fotoambulatorio{
     height: 447px;
     width: 800px;
