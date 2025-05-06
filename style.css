@@ -108,8 +108,9 @@ a:hover {
  
 /* foto no index */
 #fotoambulatorio{
-    height: 447px;
-    width: 800px;
+    width: 100%;
+    height: auto;
+    display: block;
     border-radius: 8px;
 }
 
