@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ambulatório TT Fernanda Bevenutty em João Pessoa, PB — Atendimento especializado para pessoas transexuais, travestis, não-binárias e intersexo.">
+    
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Agendar Consulta - Ambulatório TT Fernanda Bevenutty</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="contato.html">Contato</a>
+            <a href="agendar.html">Agende sua consulta</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="secao1">
+            <h2>Agendar Consulta</h2>
+            <p>Se você preferir, pode agendar sua consulta por aqui.</p>
+            <p id="observacao">
+                OBS: Este é um projeto em desenvolvimento. Esta página é apenas decorativa, não
+                é possível agendar consultas por aqui. Não insira suas informações pessoais por enquanto.
+            </p>
+        </section>
+
+        <section id="secao2">
+
+            <form action="" id="form1">
+
+                <div>
+                    <div id="ambulatorio">
+                        <label for="Ambulatório">Em qual ambulatório você deseja marcar sua consulta?</label>
+                        <select id="ambulatorio">
+                            <option value="Ambulatório TT Fernanda Bevenutty (João Pessoa, PB)">Ambulatório TT Fernanda Bevenutty (João Pessoa, PB)</option>
+                        </select>
+                    </div>
+
+                    <div id="divmedico">
+                        <label for="Médico">Médico:</label>
+                        <select id="medico">
+                            <option value="Dr. Rogério - Endocrinologista">Dr. Rogério - Endocrinologista</option>
+                            <option value="Dra. Juliana - Endocrinologista">Dra. Juliana - Endocrinologista</option>
+                            <option value="Dra. - Psicóloga">Dra. - Psicóloga</option>
+                            <option value="Dra. - Psicóloga">Dra. - Psicóloga</option>
+                            <option value="Dr. - Psiquiatra">Dr. - Psiquiatra</option>
+                            <option value="Dr. - Psiquiatra">Dr. - Psiquiatra</option>
+                            <option value="Dra. - Dermatologista">Dra. - Dermatologista</option>
+                            <option value="Dra. - Ginecologista">Dra. - Ginecologista</option>
+                        </select>
+                    </div>
+
+                    <div id="divdata">
+                        <label for="Data">Data:</label>
+                        <input type="date">
+                    </div>
+
+                    <div id="divhorario">
+                        <label for="Horário">Horário:</label>
+                        <input type="time">
+                    </div>
+                </div>
+
+                <br>
+
+                <div id="divnome">
+                    <label for="Nome">Nome:</label>
+                    <input type="text" class="input_nome">
+                </div>
+                
+                <div id="divcpf">
+                    <label for="CPF">CPF:</label>
+                    <input type="text" class="input_numero">
+                </div>
+
+                <div id="divtelefone">
+                    <label for="Telefone">Telefone:</label>
+                    <input type="text" value="(00)00000-0000" class="input_numero">
+                </div>
+
+                <div id="divprontuario">
+                    <label for="Prontuário">Número do prontuário<span class="highlight">*</span>:</label>
+                    <input type="text" class="input_numero">            
+                </div>
+
+                <div id="divcodigo">
+                    <label for="Código">Código<span class="highlight">*</span>:</label>
+                    <input type="text" class="input_numero">            
+                </div>
+
+                <br>
+
+                <div id="divenviar">
+                    <input type="submit" value="Agendar consulta">            
+                </div>
+            </form>
+        </section>
+
+        <section id="secao3">
+            <div>
+                <p><span class="highlight">* Se você não possui um número e código de prontuário, é necessário cadastrar-se no sistema do Ambulatório</span></p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Esse site não é associado ao Ambulatório TT, ao Espaço LGBT, nem ao Governo da Paraíba. Esse projeto segue a Licensa MIT.</p>
+    </footer>
+</body>
+</html>

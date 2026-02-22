@@ -118,3 +118,24 @@ a:hover {
     height: 647px;
     width: 768px;
 */
+
+/* parágrafo de OBS */
+#observacao{
+    font-size: small;
+    font-weight: bold;
+}
+
+/* formulario */
+
+.input_nome{
+    width: 200px;
+}
+
+.input_numero{
+    width: 100px;
+}
+
+#divenviar{
+    size:100px;
+    border-color:#F037A5;
+}
